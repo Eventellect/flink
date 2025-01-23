@@ -162,10 +162,6 @@ under the License.
 									<pattern>org.apache.flink.runtime.util</pattern>
 									<shadedPattern>org.apache.flink.fs.azure.common</shadedPattern>
 								</relocation>
-								<relocation>
-									<pattern>com.fasterxml</pattern>
-									<shadedPattern>org.apache.flink.fs.azure.com.fasterxml</shadedPattern>
-								</relocation>
 							</relocations>
 							<filters>
 								<filter>
